@@ -1,0 +1,31 @@
+.brand-left {
+  padding-left: 3rem;
+}
+
+.navbar-custom {
+  background-color: #a2d5c6;
+}
+
+/* .navbar-custom .navbar-nav .nav-link {
+  color: #077b8a;
+}
+.navbar-custom .navbar-brand {
+  color: #077b8a;
+  padding-left: 20%;
+} */
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #d72631;
+}
+
+.navbar-custom .navbar-nav .dropdown-menu {
+  background-color: #a2d5c6;
+}
+
+.navbar-custom .navbar-nav .dropdown-item:hover,
+.navbar-custom .navbar-nav .dropdown-item:focus {
+  color: #d72631;
+  background-color: #5c3c92;
+}
