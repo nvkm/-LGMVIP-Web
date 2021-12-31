@@ -1,3 +1,3 @@
 ## ZIPPY
 ### Bootstrap website
-#### in progress
+#### <img src = "ZIPPY/Task 1.gif">
