@@ -29,3 +29,38 @@
   color: #d72631;
   background-color: #5c3c92;
 }
+.colvol {
+  background-color: #c9a0dc;
+}
+.widther-3 {
+  text-align: center;
+  color: #6a0897;
+}
+.card-body {
+  text-align: center;
+}
+#umbrella {
+  color: #fd7e14;
+}
+.white-section:nth-last-of-type(2) {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.widther {
+  background-color: #c9a0dc;
+  padding: 17rem 0rem;
+}
+.widther-2 {
+  padding: 10rem 0rem;
+}
+.widther-4 {
+  padding-top: 7rem;
+  background-color: white;
+}
+.colorg {
+  padding: 8rem 0rem;
+}
+.widther-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
