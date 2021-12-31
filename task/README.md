@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="React Vedio.gif" width="1000" height="1000">
+<img src="React Vedio.gif">
 
 ## Available Scripts
 
