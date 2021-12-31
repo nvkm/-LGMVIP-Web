@@ -1,149 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-      <script src="bootstrap.js"></script>
-      <link rel="stylesheet" href="style.css" />
-      <link rel="stylesheet" href="bootstrap.css" />
-      <title>ZIPPY</title>
-   </head>
-   <body>
-      <div class="card text-center">
-         <div class="card-header">
-            <nav
-               class="
-               navbar
-               navbar-expand-lg
-               navbar-expand-md
-               navbar-expand-sm
-               navbar-light
-               navbar-custom
-               "
-               >
-               <div class="container-fluid">
-                  <a class="navbar-brand fs-1 brand-left" href="#">ZIPPY</a>
-                  <button
-                     class="navbar-toggler"
-                     type="button"
-                     data-bs-toggle="collapse"
-                     data-bs-target="#navbarTogglerDemo02"
-                     aria-controls="navbarTogglerDemo02"
-                     aria-expanded="false"
-                     aria-label="Toggle navigation"
-                     >
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                           <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#features">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#pricing">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="#footer">Contact</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </nav>
-            <div class="widther">
-               <h1 class="card-title">One Page Promising for all your needs!</h1>
-               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-               <a href="#footer" class="btn btn-warning btn-lg">learn More</a>
-            </div>
-         </div>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ZIPPY</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">ZIPPY</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">One page for all ur needs</h1>
+            <button
+              type="button"
+              onclick="location.href='#testimonials'"
+              class="btn btn-lg download-button btncall1"
+            >
+              <i class="fas fa-angle-double-right"></i> Learn More
+            </button>
+            <!-- <button type="button" class="btn btn-lg download-button btncall2">
+                     <i class="fab fa-google-play"></i> Download
+                     </button> -->
+          </div>
+          <div class="col-lg-6">
+            <img class="title-image" src="pngegg (5).png" alt="iphone-mockup" />
+          </div>
+        </div>
       </div>
-      <section class="widther-5" id="features">
-         <div class="container-fluid">
-            <h1 class="card-title text-center">Welcome to Zippy <i class="icon fas fa-umbrella fa-2x"id="umbrella" ></i> </h1>
-            <p class="card-text text-center">With supporting text below as a natural lead-in to additional content.</p>
-            <div class="widther-2">
-               <div class="row">
-                  <div class="col-lg-4 widther-3">
-                     <i class="icon fas fa-check-circle fa-4x"></i>
-                     <h3 class="feature-title">LOREM IPSUM</h3>
-                     <p>Lorem Ipsum is simply dummy text.</p>
-                  </div>
-                  <div class="col-lg-4 widther-3">
-                     <i class="icon fas fa-bullseye fa-4x"></i>
-                     <h3 class="feature-title">DOLOR SIT</h3>
-                     <p>Lorem Ipsum is simply dummy text.</p>
-                  </div>
-                  <div class="col-lg-4 widther-3">
-                     <i class="icon fas fa-heart fa-4x"></i>
-                     <h3 class="feature-title">CONSECUTURE</h3>
-                     <p>Lorem Ipsum is simply dummy.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <div class="colorg" id="pricing">
-         <div class="container">
-            <h1 class="text-center">
-            A Plan for Every client Needs</h2>
-            <p class="text-center">Simple and affordable price plans for your needs.</p>
-            <div class="row">
-               <div class="col-lg-4 col-md-6">
-                  <div class="card ">
-                     <div class="card-header">
-                        <h3 class="text-center">Standart Plan</h3>
-                     </div>
-                     <div class="card-body">
-                        <h2 class="price-text">Free</h2>
-                        <p>2 GB per day</p>
-                        <p>100 Messages Per Day</p>
-                        <p>Unlimited App Usage</p>
-                        <button class="btn btn-lg btn-block btn-success" type="button">Sign Up</button>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="card">
-                     <div class="card-header">
-                        <h3 class="text-center">Business Plan</h3>
-                     </div>
-                     <div class="card-body ">
-                        <h2 class="price-text">$49 / mo</h2>
-                        <p>100 GB per day</p>
-                        <p>Unlimited Messages</p>
-                        <p>Unlimited App Usage</p>
-                        <button class="btn btn-lg btn-block btn-success" type="button">Sign Up</button>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-12">
-                  <div class="card">
-                     <div class="card-header">
-                        <h3 class="text-center">Premium PLan</h3>
-                     </div>
-                     <div class="card-body">
-                        <h2 class="price-text">$99 / mo</h2>
-                        <p>200 GB per day</p>
-                        <p>Unlimited Messages</p>
-                        <p>Unlimited App Usage</p>
-                        <button class="btn btn-lg btn-block btn-success" type="button">Sign Up</button>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+    </section>
+    <!-- Features -->
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">LOREM IPSUM</h3>
+            <p>Lorem Ipsum is simply dummy text</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3 class="feature-title">DOLOR SIT</h3>
+            <p>Lorem Ipsum is simply dummy text</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">CONSECUTURE</h3>
+            <p>Lrorem Ipsum is simply dummy text</p>
+          </div>
+        </div>
       </div>
-      <footer class="widther-4" id="footer">
-         <div class="container-fluid text-center">
-            <i class="social-icon fab fa-facebook-f"></i>   
-            <i class="social-icon fab fa-twitter"></i>
-            <i class="social-icon fab fa-instagram"></i>
-            <i class="social-icon fas fa-envelope"></i>
-            <p>© Copyright 2022 ZIPPY</p>
-         </div>
-      </footer>
-   </body>
+    </section>
+    <!-- Testimonials -->
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s,
+            </h2>
+            <img class="testimonial-image" src="woman2.png" alt="dog-profile" />
+            <em>Lorem, Ipsum</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s,
+            </h2>
+            <img class="testimonial-image" src="man1.png" alt="lady-profile" />
+            <em>Dolor, Consecuture</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!-- Press -->
+    <section class="colored-section" id="press">
+      <img class="press-logo" src="pngegg (1).png" alt="tc-logo" />
+      <img class="press-logo" src="pngegg (2).png" alt="tnw-logo" />
+      <img class="press-logo" src="pngegg (3).png" alt="biz-insider-logo" />
+      <img class="press-logo" src="pngegg.png" alt="mashable-logo" />
+    </section>
+    <!-- Pricing -->
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">A Plan for Ipsum needs</h2>
+      <p>Contrary to popular belief, Lorem Ipsum.</p>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Standard Plan</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>10 GB per Day</p>
+              <p>15 Contacts</p>
+              <p>Ongoing Ads</p>
+              <button class="btn btn-lg btn-block btnclo" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Business Plan</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>100 GB per day</p>
+              <p>30 Contacts</p>
+              <p>Add free</p>
+              <button class="btn btn-lg btn-block btnclo" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Premium Plan</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mo</h2>
+              <p>150 GB per day</p>
+              <p>Unlimited Contacts</p>
+              <p>Ad free</p>
+              <button class="btn btn-lg btn-block btnclo" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action -->
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="big-heading">Contrary to popular belief, Lorem Ipsum.</h3>
+        <button class="download-button btn btn-lg btncall1" type="button">
+          <i class="fab fa-apple"></i> Download
+        </button>
+        <button class="download-button btn btn-lg btncall2" type="button">
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2022 ZIPPY</p>
+      </div>
+    </footer>
+  </body>
 </html>
