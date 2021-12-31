@@ -2,4 +2,4 @@
 
 ### Bootstrap website
 
-#### <img src = "task 1.gif" />
+#### <img src = "Task 1.gif" />
